@@ -60,5 +60,10 @@ public abstract class Conta {
 		System.out.println(String.format("Numero: %d", this.numero));
 		System.out.println(String.format("Saldo: %.2f", this.saldo));   
     }
+
+    public void imprimirExtrato() {
+        System.out.println("=== Conta ===");
+        this.imprimirInfos();
+    }
     
 }
